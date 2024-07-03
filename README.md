@@ -4,7 +4,8 @@ LLM security/guard
 # How to install
 
 ## Install libraries
-`` 
+
+``
 !pip install --upgrade --quiet  "optimum[onnxruntime]" langchain transformers langchain-experimental langchain-openai groq
 
 !pip install pyarrow requests
