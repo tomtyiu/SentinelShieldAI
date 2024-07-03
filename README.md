@@ -5,7 +5,7 @@ LLM security/guard
 
 ## Install libraries
 
-``
+```
 !pip install --upgrade --quiet  "optimum[onnxruntime]" langchain transformers langchain-experimental langchain-openai groq
 
 !pip install pyarrow requests
@@ -15,4 +15,4 @@ Sandbox environment
 !python -m venv env1
 
 !source env1/bin/activate
-``
+```
