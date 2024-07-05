@@ -26,6 +26,11 @@ This code demonstrates a system for classifying user prompts and interacting wit
 Prompt Injection Detection:
 
 Utilizes a pre-trained text classification model [ProtectAI/deberta-v3-base-prompt-injection-v2](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2) to identify potentially malicious prompts.
+
+Other text classification can be used: 
+[Meta Llama Guard]  (https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)
+[Rebuff] (https://github.com/protectai/rebuff) 
+
 Continuously prompts the user for input until a "SAFE" classification is received.
 Groq Integration:
 
