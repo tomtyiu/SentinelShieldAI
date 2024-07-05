@@ -52,8 +52,7 @@ The LLM's response is classified again for potential prompt injection.
 If the response is classified as "SAFE," the LLM's output is printed. Otherwise, a prompt injection warning is displayed.
 Note:
 
-This code assumes that you have the necessary libraries installed (optimum, transformers, google-colab, tenacity, groq).
-You need to replace HK_TOKEN and api_key with your actual API keys.
+# This code assumes that you have the necessary libraries installed (optimum, transformers, google-colab, tenacity, groq). You need to replace HK_TOKEN and api_key with your actual API keys.
 
 ````
 from optimum.onnxruntime import ORTModelForSequenceClassification
