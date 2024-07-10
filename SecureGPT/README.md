@@ -137,3 +137,8 @@ while True:
 
 # Conclusion
 SecureGPT provides a structured and secure way to interact with advanced AI models, ensuring safe and productive conversations by implementing moderation and guardrails. The memory management feature allows for persistent conversations across sessions.
+
+Release:
+- SecureGPT4o v0.1
+- SecureGPT4o v0.2 with Flask HTML web (not available in Github, contact application owner)
+
