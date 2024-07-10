@@ -43,7 +43,7 @@ memory = []
 2. Guardrail Function
 The GuardLLM function checks if the user's input is allowed based on predefined guidelines.
 
-``
+````
 def GuardLLM(system_prompt, input):
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo-0125",
@@ -54,7 +54,7 @@ def GuardLLM(system_prompt, input):
     )
     print("Guardrail: ")
     return completion.choices[0].message.content
-``
+````
 
 3. GPT Response Function
 The GPT_response function generates a response from the GPT-4o model and streams the output.
