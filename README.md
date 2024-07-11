@@ -34,7 +34,7 @@ Other text classification can be used:
 
 # Citation
 
-Please cite Swarms in your paper or your project if you found it beneficial in any way! Appreciate you.
+Please cite SentinelShieldAI in your paper or your project if you found it beneficial in any way! Appreciate you.
 
 ````
 @misc{SentinelShieldAI,
