@@ -139,7 +139,7 @@ GroqRAG is a program designed for question-answering tasks using the LangChain l
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/tomtyiu/SentinelShieldAI/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License 2.0 - see the [LICENSE](https://github.com/tomtyiu/SentinelShieldAI/blob/main/LICENSE) file for details.
 
 ## Author
 
