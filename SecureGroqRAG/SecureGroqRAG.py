@@ -7,7 +7,7 @@ import getpass
 import os
 
 
-os.environ["GROQ_API_KEY"] = "spikes"
+os.environ["GROQ_API_KEY"] = "api-key"
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
