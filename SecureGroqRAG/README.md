@@ -1,4 +1,4 @@
-# GroqRAG
+# Secure GroqRAG Chatbot
 
 ## Overview
 
