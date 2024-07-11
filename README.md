@@ -32,9 +32,11 @@ Other text classification can be used:
 + [Meta Llama Guard](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)
 + [Rebuff](https://github.com/protectai/rebuff) 
 
-Citation
+# Citation
+
 Please cite Swarms in your paper or your project if you found it beneficial in any way! Appreciate you.
 
+````
 @misc{SentinelShieldAI,
   author = {Yiu, Thomas},
   title = {{SentinelShieldAI: LLM guard/security}},
@@ -42,3 +44,4 @@ Please cite Swarms in your paper or your project if you found it beneficial in a
   year = {2024},
   note = {Accessed: Date}
 }
+````
