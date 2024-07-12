@@ -55,7 +55,7 @@ GroqRAG is a program designed for question-answering tasks using the LangChain l
     import getpass
     import os
 
-    os.environ["GROQ_API_KEY"] = "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"
+    os.environ["GROQ_API_KEY"] = "your-api-key from Groq"
     ```
 
 - **Import Required Modules:**
