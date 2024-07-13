@@ -2,7 +2,8 @@
 #by Thomas Yiu
 from llama_index.core.llms import ChatMessage
 from llama_index.llms.groq import Groq
-#Create an API key at the Groq console, then set it to the environment variable
+#Create an API key at the Groq console
+#You can pass your API key to the LLM when you init it:
 llm = Groq(model="llama3-70b-8192", api_key="api key")
 
 #guardrails LLM system prompt
