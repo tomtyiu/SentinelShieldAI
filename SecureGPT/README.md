@@ -140,6 +140,6 @@ SecureGPT provides a structured and secure way to interact with advanced AI mode
 
 Release:
 - SecureGPT4o v0.1
-- SecureGPT4o v0.2 with Flask HTML web (not available in Github, contact application owner)
-- SecureGPT4o v0.3 with flask HTML with memory and guardrail output LLM (not available to public, contact me for code)
+- SecureGPT4o v0.2 with Flask HTML web (not available in Github, contact me)
+- SecureGPT4o v0.3 with flask HTML with memory and guardrail output LLM (not available to public, contact me)
 
