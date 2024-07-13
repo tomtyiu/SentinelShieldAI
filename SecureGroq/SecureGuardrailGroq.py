@@ -1,7 +1,7 @@
 from llama_index.core.llms import ChatMessage
 from llama_index.llms.groq import Groq
 #llama index Groq Guardrail chat
-llm = Groq(model="llama3-70b-8192", api_key="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")
+llm = Groq(model="llama3-70b-8192", api_key="api key")
 
 guardrail = """
 Your role is to assess whether the user question is allowed or not. 
