@@ -32,6 +32,14 @@ Other text classification can be used:
 + [Meta Llama Guard](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)
 + [Rebuff](https://github.com/protectai/rebuff) 
 
+# OpenAI
+OpenAI uses OpenAI Moderator. 
+
+# Mistral
+Mistral
+## System prompt to enforce guardrails ->check out their own guardrail guide [guardrailing](https://docs.mistral.ai/capabilities/guardrailing/) 
+
+
 # Citation
 
 Please cite SentinelShieldAI in your paper or your project if you found it beneficial in any way! Appreciate you.
