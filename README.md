@@ -36,8 +36,7 @@ Other text classification can be used:
 OpenAI uses OpenAI Moderator. 
 
 # Mistral
-Mistral
-## System prompt to enforce guardrails ->check out their own guardrail guide [guardrailing](https://docs.mistral.ai/capabilities/guardrailing/) 
+System prompt to enforce guardrails ->check out their own guardrail guide [guardrailing](https://docs.mistral.ai/capabilities/guardrailing/) 
 
 
 # Citation
