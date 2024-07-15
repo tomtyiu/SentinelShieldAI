@@ -40,7 +40,7 @@ System prompt to enforce guardrails ->check out their own guardrail guide [guard
 
 # Anthropic Claude
 System prompt guardrail.
-See 'SecureClaude.py' for details
+See ``SecureClaude.py`` for details
 
 
 # Citation
