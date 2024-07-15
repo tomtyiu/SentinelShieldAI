@@ -14,7 +14,7 @@ Ensure replies promote fairness and positivity.
 def Claude(user_input):
     message = client.messages.create(
         model="claude-3-5-sonnet-20240620",
-        max_tokens=1000,
+        max_tokens=8195,
         temperature=0,
         system=system_prompt,
         messages=[
