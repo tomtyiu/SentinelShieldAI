@@ -38,6 +38,10 @@ OpenAI uses OpenAI Moderator.
 # Mistral
 System prompt to enforce guardrails ->check out their own guardrail guide [guardrailing](https://docs.mistral.ai/capabilities/guardrailing/) 
 
+# Anthropic Claude
+System prompt guardrail.
+See 'SecureClaude.py' for details
+
 
 # Citation
 
