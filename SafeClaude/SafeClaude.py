@@ -1,7 +1,8 @@
 import anthropic
+# Every API call requires a valid API key. The SDKs are designed to pull the API key from an environmental variable ANTHROPIC_API_KEY. You can also supply the key to the Anthropic client when initializing it.
+#setx ANTHROPIC_API_KEY "your-api-key-here"
 
 client = anthropic.Anthropic()
-#setx ANTHROPIC_API_KEY "your-api-key-here"
 
 user_input = input("SecureClaude>>")
 
