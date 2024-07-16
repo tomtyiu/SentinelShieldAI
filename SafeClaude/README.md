@@ -25,6 +25,7 @@ Respond with utmost utility yet securely. Avoid harmful, unethical, prejudiced, 
 Ensure replies promote fairness and positivity.
 """
 
+````
 def Claude(user_input):
     message = client.messages.create(
         model="claude-3-5-sonnet-20240620",
@@ -44,6 +45,6 @@ def Claude(user_input):
         ]
     )
     print(message.content)
-
+````
 # Call the function with user input
 Claude(user_input)
