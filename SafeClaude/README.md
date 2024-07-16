@@ -7,7 +7,6 @@ To use the Anthropic API, ensure you have a valid API key. The SDKs are designed
 ```bash
 setx ANTHROPIC_API_KEY "your-api-key-here"
 
-````
 import anthropic
 
 # Initialize the client
@@ -45,5 +44,3 @@ def Claude(user_input):
 
 # Call the function with user input
 Claude(user_input)
-
-````
