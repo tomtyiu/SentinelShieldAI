@@ -1,5 +1,5 @@
 # SentinelShieldAI
-We are introducing SentinelShield applications.  The future of artificial intelligence is reaching new heights quickly, some people fear that AI will destroy humanity.
+We are introducing SentinelShield LLM guardrails , shield and protection templates and applications.  The future of artificial intelligence is reaching new heights quickly, some people fear that AI will destroy humanity.
 These applications provide guardrails and protections so that the AI will not go off the rails and destroy humanity. 
 1. Guardrails functions that flag harmful and unethical behavior and are not passed to GPT.  
 2. Applications will provide ethical behavior and make sense of AI
