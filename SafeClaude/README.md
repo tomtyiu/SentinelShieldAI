@@ -6,8 +6,11 @@ To use the Anthropic API, ensure you have a valid API key. The SDKs are designed
 
 ```bash
 setx ANTHROPIC_API_KEY "your-api-key-here"
+```
 
+```
 import anthropic
+```
 
 # Initialize the client
 client = anthropic.Anthropic()
