@@ -1,6 +1,7 @@
 import anthropic
 
 client = anthropic.Anthropic()
+#setx ANTHROPIC_API_KEY "your-api-key-here"
 
 user_input = input("SecureClaude>>")
 
