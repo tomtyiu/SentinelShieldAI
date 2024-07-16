@@ -1,5 +1,10 @@
 # SentinelShieldAI
-LLM security/guard
+We are introducing SentinelShield AI.  The future of artificial intelligence is reaching new heights quickly, some people fear that AI will destroy humanity.
+These applications provide guardrails and protections so that the AI will not go off the rails and destroy humanity. 
+1) Guardrails that let AI know to avoid harmful and unethical behavior.  It will provide ethical behavior and make sense of AI
+2) Secondary AI that provides ethical responses and provides oversight on LLM/GPT responses that go out of guardrail and unethical responses.
+3) Protect LLM from outside actors that inject LLM/GPT to perform unethical, immoral, and harmful actions and responses.
+
 
 # How to install
 
