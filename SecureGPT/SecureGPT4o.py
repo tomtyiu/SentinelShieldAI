@@ -80,6 +80,6 @@ while True:
                 print("Unable to comply with the request\n")
             else:
                 response = GPT_response(system_prompt, user_input)
-                response2 = GuardLLM(guardrail2, response)
+                response2 = GPT_response(guardrail2, response)
                 save_memory(user_input, response2)
                 print()
