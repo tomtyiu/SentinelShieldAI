@@ -80,6 +80,7 @@ while True:
                 print("Unable to comply with the request\n")
             else:
                 response = GPT_response(system_prompt, user_input)
+                # additional output guardrail to avoid any malicious/ illegal/unethical response
                 response2 = GPT_response(guardrail2, response)
                 save_memory(user_input, response2)
                 print()
