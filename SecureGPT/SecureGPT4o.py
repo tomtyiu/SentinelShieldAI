@@ -9,7 +9,7 @@ memory = []
 
 def GuardLLM(system_prompt, input):
     completion = client.chat.completions.create(
-        model=""gpt-4o-mini",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": input}
