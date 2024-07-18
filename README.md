@@ -26,7 +26,7 @@ Sandbox environment
 
 # Documentation:
 
-This codes demonstrates a system for classifying user prompts and interacting with a large language model (LLM) while mitigating potential prompt injection attacks.
+This codes demonstrates a system for classifying user prompts and interacting with a large language model (LLM) while mitigating potential prompt injection attacks/ jailbreak and other malicious activities
 
 # Key Components:
 
