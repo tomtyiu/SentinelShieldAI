@@ -40,8 +40,9 @@ Other text classification can be used:
 + [Rebuff](https://github.com/protectai/rebuff) 
 
 # OpenAI
-OpenAI uses OpenAI Moderator, GPT guadrail
-current models: gpt 4o, gpt4o mini
+GPT protection: 
++ OpenAI Moderator, GPT guadrail
++ current models: gpt 4o, gpt4o mini
 
 # Mistral
 System prompt to enforce guardrails ->check out their own guardrail guide [guardrailing](https://docs.mistral.ai/capabilities/guardrailing/) 
