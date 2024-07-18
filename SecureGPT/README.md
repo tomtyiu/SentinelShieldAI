@@ -1,7 +1,7 @@
 # SecureGPT4o Documentation
 
 ## Overview
-SecureGPT4o is a Python-based application that uses OpenAI's GPT models to provide secure and moderated conversational AI. It leverages the gpt-3.5-turbo-0125 and gpt-4o models for different aspects of its functionality, ensuring a safe and productive interaction with users by employing a guardrail system for input validation.
+SecureGPT4o is a Python-based application that uses OpenAI's GPT models to provide secure and moderated conversational AI. It leverages the gpt 4o-mini and gpt-4o models for different aspects of its functionality, ensuring a safe and productive interaction with users by employing a guardrail system for input validation.
 
 ## Dependencies
 To use SecureGPT4o, you need the following libraries:
