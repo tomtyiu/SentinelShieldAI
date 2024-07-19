@@ -6,14 +6,19 @@
 import getpass
 import os
 
-
+# load langchain 
 from langchain.chains import OpenAIModerationChain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAI
 
+# Head over to https://platform.openai.com to sign up to OpenAI and generate an API key. 
+Once you've done this set the OPENAI_API_KEY environment variable in WIndows or Linux:
+
 os.environ["OPENAI_API_KEY"] = "api-key"
 
 from langchain_openai import ChatOpenAI
+
+# instantiate our model object and generate chat completions:
 
 llm = ChatOpenAI(model="gpt-4o-mini")
 
