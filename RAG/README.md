@@ -148,13 +148,3 @@ while inputs != "exit":
             print(f"{chunk}", end="")
         print()
     inputs = input(f"GPt4o-mini (Default:What is Task Decomposition?) >>")
-
-# Citation
-
-@misc{SentinelShieldAI,
-  author = {Yiu, Thomas},
-  title = {{SentinelShieldAI: LLM guard/security}},
-  howpublished = {\url{[https://github.com/kyegomez/swarms](https://github.com/tomtyiu/SentinelShieldAI)}},
-  year = {2024},
-  note = {Accessed: Date}
-}
