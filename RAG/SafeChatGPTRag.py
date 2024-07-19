@@ -19,7 +19,6 @@ os.environ["OPENAI_API_KEY"] = "api-key"
 from langchain_openai import ChatOpenAI
 
 # instantiate our model object and generate chat completions:
-
 llm = ChatOpenAI(model="gpt-4o-mini")
 
 import bs4
