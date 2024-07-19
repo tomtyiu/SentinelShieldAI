@@ -1,5 +1,5 @@
 #Program by Thomas Yiu
-#Copyright: Apache
+#Copyright: Apache 2.0
 #from langchain website 
 
 
