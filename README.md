@@ -53,7 +53,8 @@ See ``SecureClaude.py`` for details
 
 # SSI (Future model will support)
 
-# Google Gemini
+# Google Gemini:
+Google Guardrail Gemini 
 
 # Citation
 
