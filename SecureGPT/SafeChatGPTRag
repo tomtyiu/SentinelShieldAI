@@ -11,7 +11,7 @@ from langchain.chains import OpenAIModerationChain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = getpass.getpass()
+os.environ["OPENAI_API_KEY"] = "api-key"
 
 from langchain_openai import ChatOpenAI
 
@@ -102,10 +102,7 @@ def LLM_guard(user_input):
 question_answer_chain = create_stuff_documents_chain(llm, prompt)
 rag_chain = create_retrieval_chain(retriever, question_answer_chain)
 
-moderate = OpenAIModerationChain()
 model = OpenAI()
-prompt = ChatPromptTemplate.from_messages([("system", "repeat after me: {input}")])
-
 inputs = input(f"GPt4o-mini (Default:What is Task Decomposition?, Exit: type exit) >>")
 while inputs !="exit":
     chain = rag_chain.pick("answer")
@@ -113,7 +110,6 @@ while inputs !="exit":
     print(allowance.content)
     if allowance.content =="not_allowed":
         print("Illega/unethical/ failed detected. exit")
-        exit()
     else: 
         for chunk in chain.stream({"input": inputs}):
             print(f"{chunk}", end="")
