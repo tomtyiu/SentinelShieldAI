@@ -1,5 +1,7 @@
 #llama index Groq Guardrail chat
 #by Thomas Yiu
+#llama 3.1 guardrail 
+
 from llama_index.core.llms import ChatMessage
 from llama_index.llms.groq import Groq
 #Create an API key at the Groq console
@@ -34,7 +36,7 @@ def LLM(sys_prompt, input):
     #    print(r.delta, end="")
 
 while True:          
-    user_input = input("\nSecureGroq>>")
+    user_input = input("\n LlamaGuards>>")
     if user_input.lower() == 'exit':
             break
     guardrail_response=LLM(guardrail, user_input)
