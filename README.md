@@ -56,7 +56,7 @@ See ``SecureClaude.py`` for details
 # Google Gemini:
 Google Guardrail Gemini 
 
-#ollama
+# Ollama
 Follow quick start: 
 [Quick Start](https://github.com/ollama/ollama/blob/main/README.md#quickstart)
 
