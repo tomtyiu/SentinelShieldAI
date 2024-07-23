@@ -56,6 +56,16 @@ See ``SecureClaude.py`` for details
 # Google Gemini:
 Google Guardrail Gemini 
 
+#ollama
+Follow quick start: 
+[Quick Start](https://github.com/ollama/ollama/blob/main/README.md#quickstart)
+
+To run and chat with Llama 3.1:
+
+'''
+ollama run llama3.1
+'''
+
 # Citation
 
 Please cite SentinelShieldAI in your paper or your project if you found it beneficial in any way! Appreciate you.
