@@ -62,9 +62,9 @@ Follow quick start:
 
 To run and chat with Llama 3.1:
 
-'''
+```
 ollama run llama3.1
-'''
+```
 
 # Citation
 
