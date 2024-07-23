@@ -53,7 +53,9 @@ The core script is shown below:
 from llama_index.core.llms import ChatMessage
 from llama_index.llms.groq import Groq
 
-llm = Groq(model="llama3-70b-8192", api_key="your_api_key_here")
+llm = Groq(model="llama-3.1-405b-reasoning", api_key="api key")
+# llm = Groq(model="llama-3.1-70b-versatile", api_key="api key")
+# llm = Groq(model="llama-3.1-8b-instant", api_key="api key")
 
 guardrail = """
 Your role is to assess whether the user question is allowed or not. 
