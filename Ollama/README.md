@@ -58,6 +58,7 @@ inputs = input("Safeollama: (type exit to exit)>> ")
 while inputs != "exit":
     safeollama(system_prompt, inputs)
     inputs = input("\n Safeollama:>> ")
+```
 
 # Contributing
 We welcome contributions from the community. Please fork the repository and submit pull requests with your improvements.
