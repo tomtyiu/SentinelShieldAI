@@ -1,6 +1,7 @@
 # Llama 3.1 guardrail 
 + Meta Llama 3.1
 + Open source guardrail
+  
 
 This repository contains a Python script that utilizes the Groq model from the Llama Index to create a secure and ethical chatbot. The chatbot ensures that user inputs comply with defined guardrails, promoting safe and respectful interactions.
 
@@ -87,3 +88,6 @@ while True:
         break
     else: 
         LLM(system_prompt, user_input)
+```
+
+## please star, fork or clone this program
