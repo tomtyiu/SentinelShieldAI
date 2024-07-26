@@ -1,7 +1,7 @@
 import os
 
 # Set the Hugging Face token as an environment variable
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 TF_ENABLE_ONEDNN_OPTS=0
 
 #llama index Groq Guardrail chat
