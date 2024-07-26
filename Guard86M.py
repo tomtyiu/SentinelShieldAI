@@ -12,8 +12,8 @@ from llama_index.core.llms import ChatMessage
 from llama_index.llms.groq import Groq
 #Create an API key at the Groq console
 #You can pass your API key to the LLM when you init it:
-# llm = Groq(model="llama-3.1-405b-reasoning", api_key="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")
-llm = Groq(model="llama-3.1-70b-versatile", api_key="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")
+# llm = Groq(model="llama-3.1-405b-reasoning", api_key="")
+llm = Groq(model="llama-3.1-70b-versatile", api_key="")
 # llm = Groq(model="llama-3.1-8b-instant", api_key="api key")
 
 #guardrails LLM system prompt
