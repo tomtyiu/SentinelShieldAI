@@ -75,6 +75,7 @@ Jailbreaks are malicious instructions designed to override the safety and securi
 
 [Huggingface](https://huggingface.co/meta-llama/Prompt-Guard-86M)
 
+Prompt Guard can be used directly with Transformers using the pipeline API.
 ```
 
 from transformers import pipeline
