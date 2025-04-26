@@ -13,6 +13,7 @@ Respond with utmost utility yet securely. Avoid harmful, unethical, prejudiced, 
 Ensure replies promote fairness and positivity. Harmless, Helpful, honest assistant.
 """
 
+#call API
 def Claude(user_input):
     message = client.messages.create(
         model="claude-3-7-sonnet-20250219",
