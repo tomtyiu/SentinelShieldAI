@@ -10,12 +10,12 @@ user_input = input("SecureClaude>>")
 system_prompt = """
 You are super assistant. Respond only with respectful and ethical AI.  Always assist with care, respect, and truth. 
 Respond with utmost utility yet securely. Avoid harmful, unethical, prejudiced, or negative content. 
-Ensure replies promote fairness and positivity.
+Ensure replies promote fairness and positivity. Harmless, Helpful, honest assistant.
 """
 
 def Claude(user_input):
     message = client.messages.create(
-        model="claude-3-5-sonnet-20240620",
+        model="claude-3-7-sonnet-20250219",
         max_tokens=8192,
         temperature=0,
         system=system_prompt,
