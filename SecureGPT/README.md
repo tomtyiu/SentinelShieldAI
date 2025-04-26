@@ -62,7 +62,7 @@ The GPT_response function generates a response from the GPT-4o model and streams
 ````
 def GPT_response(system_prompt, input):
     stream = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4.1",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": input}
